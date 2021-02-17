@@ -20,7 +20,7 @@ That is an even integer
 
 """
 
-number = input((float(number))
+number = input((float (number))
 number = number.strip()
 a = float(number) 
 
