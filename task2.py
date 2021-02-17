@@ -15,3 +15,9 @@ outputs:
 Access granted
 Access denied
 """
+username = "admin"
+password = ""
+while username != "admin":
+    name = input("str (username)")
+    if name != "Marvin the Martian":
+        print("Access denied")

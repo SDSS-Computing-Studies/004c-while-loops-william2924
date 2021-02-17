@@ -23,7 +23,6 @@ import time
 targetNum = 20
 count = 2
 
-print("The target is " + str(targetNum))
 print("===================")
 while targetNum == 20:
     print(count)
