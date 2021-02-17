@@ -20,11 +20,9 @@ That is an even integer
 
 """
 
-number = input((float (number))
-number = number.strip()
-a = float(number) 
+count = input(number).strip()
 
-if a == float(number) :
+if count == 0:
     print("That is an even integer")
-else:
+    else count != float:
     print("That is not an even integer")
