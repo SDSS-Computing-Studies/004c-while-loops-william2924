@@ -19,13 +19,13 @@ Enter a number: 4
 import math
 import time
 
-targetNum = 55
+targetNum = 60
 counter = 5
 while True:
     print(counter, end =" ", flush=True)
     counter = counter + 5
     # time.sleep(x) will pause the program at this point for x seconds where x is a float 
     time.sleep(0.1)
-    if counter > 56:
+    if counter > 60:
        break
 print("===================")
