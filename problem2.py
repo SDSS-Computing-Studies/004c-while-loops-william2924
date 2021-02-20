@@ -15,17 +15,14 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-
 import math
 import time
 
-counter = input("Please enter a numbrer")
-float(counter) = str(counter).strip()
+count = int(input("Please enter a numbrer"))
+first = count
 while True:
-    print(float(counter), end =" ", flush=True)
-    float(counter) = counter + counter
-    # time.sleep(x) will pause the program at this point for x seconds where x is a float 
+    print(count, end =" ", flush=True)
     time.sleep(0.1)
-    if counter > (float(counter)*12):
+    count = first+count
+    if count > first*12:
        break
-print("===================")

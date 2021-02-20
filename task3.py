@@ -20,9 +20,9 @@ That is an even integer
 
 """
 
-count = input(number).strip()
-
-if count == 0:
-    print("That is an even integer")
-    else count != float:
+number = float(input("please enter number"))
+while number / 2 != int(number / 2):
     print("That is not an even integer")
+    number = float(input("please enter number"))
+
+print("That is an even integer")
