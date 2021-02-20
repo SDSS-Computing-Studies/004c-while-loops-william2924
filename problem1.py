@@ -17,8 +17,6 @@ outputs:
 Access granted
 Access denied
 """
-import time
-
 username = ""
 password =""
 guess = 0
