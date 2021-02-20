@@ -19,13 +19,13 @@ Enter a number: 4
 import math
 import time
 
-targetNum = 60
-counter = 5
+counter = input("Please enter a numbrer")
+float(counter) = str(counter).strip()
 while True:
-    print(counter, end =" ", flush=True)
-    counter = counter + 5
+    print(float(counter), end =" ", flush=True)
+    float(counter) = counter + counter
     # time.sleep(x) will pause the program at this point for x seconds where x is a float 
     time.sleep(0.1)
-    if counter > 60:
+    if counter > (float(counter)*12):
        break
 print("===================")
