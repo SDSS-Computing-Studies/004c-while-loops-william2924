@@ -17,9 +17,12 @@ outputs:
 Access granted
 Access denied
 """
-username = ""
+import time
+
+username =""
 password =""
 guess = 0
+
 while username != "admin" or password != "12345" :
     username=input("please enter username").strip()
     password=input("please enter password").strip()
