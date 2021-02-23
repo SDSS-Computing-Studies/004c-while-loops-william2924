@@ -19,10 +19,10 @@ import math
 import time
 
 count = int(input("Please enter a numbrer"))
-number = count
+first = count
 while True:
     print(count, end=" ", flush = True)
-    count = number + count
+    count = first + count
     time.sleep(0.1)
-    if  count > number * 12:
+    if  count > first * 12:
       break

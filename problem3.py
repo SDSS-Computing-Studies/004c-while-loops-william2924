@@ -15,6 +15,7 @@ Example:
 """
 a = 0
 b = 1
+print("1", end=" ", flush = True)
 x = a + b
 
 while x < 100:
