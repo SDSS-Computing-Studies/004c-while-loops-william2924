@@ -20,6 +20,6 @@ while x < 100:
     x = a + b
     a = b
     b = x
-    print(x, end=" ", flush = True)
+    print(x, end=" ", flush = True)
     if x > 100:
       break
