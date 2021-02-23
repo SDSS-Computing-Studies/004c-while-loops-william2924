@@ -15,14 +15,14 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-import math
-import time
+import math
+import time
 
-count = int(input("Please enter a numbrer"))
-first = count
-while True:
-    print(count, end =" ", flush=True)
-    count = first+count
+count = int(input("Please enter a numbrer"))
+f = count
+while True:
+    print(count,end=" ", flush=True)
+    count = f + count
     time.sleep(0.1)
-    if count > first * 12:
-        break
+    if count > f*12
+      break

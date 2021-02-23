@@ -17,8 +17,8 @@ a = 0
 b = 1
 x = a + b
 while x < 100:
-    x = a + b
-    a = b
+    x = input(a + b).strip()
+    a = input(b).strip()
     b = x
     print(x, end=" ", flush = True)
     if x > 100:
