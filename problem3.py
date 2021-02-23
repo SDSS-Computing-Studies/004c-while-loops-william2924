@@ -17,9 +17,9 @@ a = 0
 b = 1
 x = a + b
 while x < 100:
-    print(x, end=" ", flush = True)
     x = a + b
     a = b
     b = x
+    print(x, end=" ", flush = True)
     if x > 100:
       break
