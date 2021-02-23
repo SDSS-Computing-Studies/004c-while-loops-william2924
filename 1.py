@@ -26,7 +26,7 @@ guess = 0
 while username != "admin" or password != "12345":
     username = input("please enter username").strip()
     password = input("please enter password").strip()
-    if username != "admin" or password != "12345":
+    if username != "admin" or password != "12345"
       print("Access granted")
       guess = guess + 1
       time.sleep(0.1)
