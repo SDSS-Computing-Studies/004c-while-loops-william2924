@@ -18,7 +18,7 @@ Enter a number: 4
 import math
 import time
 
-count = int(input("Please enter a numbrer"))
+count = int(input("Enter a number"))
 first = count
 while True:
     print(count, end=" ", flush = True)
