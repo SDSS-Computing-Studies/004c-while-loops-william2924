@@ -18,11 +18,11 @@ Enter a number: 4
 import math
 import time
 
-count =int(input("Please enter a numbrer"))
-first =count
+count = int(input("Please enter a numbrer"))
+first = count
 while True:
-    print(count, end =" ", flush=True)
-    time.sleep(0.1)
-    count = first+count
-    if count > first*12:
-       break
+    print(count, end =" ", flush=True)
+    count = first+count
+    time.sleep(0.1)
+    if count > first * 12:
+        break
