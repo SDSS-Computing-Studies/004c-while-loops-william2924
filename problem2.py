@@ -23,6 +23,6 @@ first = count
 while True:
     print(count, end=" ", flush = True)
     count = first + count
-    time.sleep(0.1)
+
     if  count > first * 12:
       break
