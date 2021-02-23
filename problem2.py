@@ -24,5 +24,5 @@ while True:
     print(count, end=" ", flush = True)
     count = number + count
     time.sleep(0.1)
-    if  count > 12 * number:
+    if  count > number * 12:
       break
